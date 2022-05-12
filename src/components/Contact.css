@@ -1,0 +1,109 @@
+
+/* Contact  */
+
+
+.contact-section {
+    color: #f4f4fd;
+    margin: 0;
+    width: 100%;
+    background-color: #018673;
+}
+.portfolio-header.contact {
+    padding-top: 70px;
+    background-color: #000116;
+}
+
+.portfolio-header.contact h2 {
+    padding-top: 20px;
+    font-size: 30px;
+    color: white;
+    border: none;
+}
+
+.resources-line.port.contactw {
+    margin: 0;
+    width: 200px;
+    background-color: #018673;
+}
+.resources-line.port.contact {
+    background-color: #018673;
+}
+
+.cap.portt.contact {
+    padding-bottom: 60px;
+}
+
+
+
+.contact-section ul {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: #018673;
+    padding: 30px;
+    
+}
+.contact-section ul li {
+    list-style: none;
+    padding: 20px;
+    width: 280px;
+    font-size: 16px;
+    font-weight: 300;
+}
+.keytitle {
+    font-size: large;
+    text-transform: uppercase;
+    
+}
+
+.val {
+    color: rgba(244,244,253,.69);
+    
+}
+.contact-section ul li:nth-child(2) {
+    border-left: 1px solid #f4f4fd;
+}
+
+
+/* Media Query  */
+
+
+
+   
+     
+ 
+ @media (max-width: 599px) and (min-width: 450px) {
+
+
+    /* Contact  */
+    .cap.portt.contact {
+        padding: 5px 30px 60px;
+       
+    }
+    .contact-section ul li:nth-child(2) {
+        border: none;
+    }
+
+
+ }
+
+ @media (max-width: 450px) {
+
+ 
+    
+ 
+
+    
+
+    /* Contact  */
+    .cap.portt.contact {
+        padding: 5px 30px 60px;
+       
+    }
+    .contact-section ul li:nth-child(2) {
+        border: none;
+    }
+
+ }

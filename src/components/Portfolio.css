@@ -1,0 +1,154 @@
+
+ 
+/* Portfolio */
+
+.portfolio-wrapper {
+    background-color:#000116;
+    padding: 20px;
+    
+}
+
+.portfolio-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.portfolio-header h2 {
+    color: #4AEFDF;
+    font-size: 40px;
+    font-weight: 500;
+    border-bottom: 3px solid white;
+}
+
+.port {
+    background-color: white;
+}
+
+.portt {
+    color:#f4f4fd;
+    font-weight: 520;
+ 
+}
+
+.portfolio-buttons {
+   display: flex;
+   justify-content: center;
+
+    text-align: center;
+   
+}
+
+.Port-btn {
+    font-weight: 500;
+    cursor: pointer;
+    margin: 15px 15px 15px 0;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #666666;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background: #fff;
+    margin-bottom: 5px;
+    transition: all .3s ease-in-out;
+}
+
+.Port-btn:hover {
+    color:beige;
+    background-color: #4AEFDF;
+    font-weight: 600;
+}
+
+.port-showcase {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    margin-top: 30px;
+    overflow: hidden;
+   
+
+}
+.show img {
+    width: 100%;
+    transition: all .3s;
+    overflow: hidden;
+}
+
+.show img:hover { 
+    transform: scaleY(1.03) scaleX(1.03);
+    
+}
+
+.show h2 {
+    color: white;
+    padding: 10px 20px;
+    font-weight: 700;
+    
+}
+.show p {
+    color: white;
+    padding: 0px 20px;
+    line-height: 1.6;
+    font-weight: 600;
+    font-size: 15px;
+}
+.about-btn.portfolio {
+    display: inline;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+ 
+
+/* Media Query  */
+
+@media (max-width: 870px) and (min-width: 600px) {
+
+  
+
+    /* Portfolio  */
+    .port-showcase {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+   
+    
+ }
+     
+ 
+ @media (max-width: 599px) and (min-width: 450px) {
+
+   
+
+    /* Portfolio  */
+    .port-showcase {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+
+ }
+ 
+ @media (max-width: 450px) {
+
+    
+
+    
+
+    /* Portfolio  */
+    .port-showcase {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .portfolio-header.contact h2 {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 23px;
+        text-align: center;
+    }
+
+    
+
+ }
